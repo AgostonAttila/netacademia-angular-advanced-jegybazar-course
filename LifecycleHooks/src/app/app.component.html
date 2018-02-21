@@ -1,0 +1,10 @@
+<button (click)="visibleButton = !visibleButton">{{visibleButton?'remove component':'add component'}}</button>
+<button (click)="changeInputTestData()">new test data</button>
+<button (click)="changeInputNotModified()">not modified data</button>
+<div class="tree">
+  <ul>
+    <li>
+      <app-test *ngIf="visibleButton" [testData]="testData" [notModified]="notModified"></app-test>
+    </li>
+  </ul>
+</div>

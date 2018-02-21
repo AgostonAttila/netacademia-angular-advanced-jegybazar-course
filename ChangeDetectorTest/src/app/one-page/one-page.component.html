@@ -1,0 +1,17 @@
+<p>
+  one-page works! (OnPush)
+</p>
+<a href="#" [ngStyle]="{'font-weight':streamMode?'bold':'normal'}" (click)="setStreamMode($event,true)">stream mode</a>
+<a href="#" [ngStyle]="{'font-weight':streamMode?'normal':'bold'}" (click)="setStreamMode($event,false)">simple mode</a>
+<ng-container *ngIf="streamMode; else simpleMode">
+  <ng-container *ngIf="buttonText$ | async as text">
+    <button (click)="clicButton()">{{text.text}}</button>
+    <button (click)="changeButtonText()">Change button text</button>
+    <app-test1 [buttonText]="text"></app-test1>
+  </ng-container>
+</ng-container>
+<ng-template #simpleMode>
+  <button (click)="clicButton()">{{buttonText.text}}</button>
+  <button (click)="changeButtonText()">Change button text</button>
+  <app-test1 [buttonText]="buttonText"></app-test1>
+</ng-template>

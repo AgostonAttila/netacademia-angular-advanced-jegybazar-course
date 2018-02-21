@@ -1,0 +1,9 @@
+ng new ChangeDetectionTest --routing=true
+
+npm install --save ng2-logger
+ng g c NavBar
+ng g c NavBarItem
+ng g c Home
+ng g c OnePage
+ng g c Test1
+ng g c Test2

@@ -1,0 +1,16 @@
+:host{} component css ben csak arra vonatkozik
+
+
+ng -container nem jelenik meg a doemban IFnél nagyon jó
+
+img-fluid responsive lesz
+
+bs utilities class -> spacing
+
+unix timestamp 1970-
+epochconverter.com
+
+momentjs.com
+
+angular2-moment
+npm install --save angular2-moment

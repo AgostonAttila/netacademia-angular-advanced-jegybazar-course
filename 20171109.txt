@@ -1,0 +1,15 @@
+https://www.w3schools.com/howto/howto_css_loader.asp
+
+block elemeknél
+margin: 0 auto  val mindig középen lesz az elem
+
+https://getbootstrap.com/docs/4.0/components/forms/#validation
+{{form.value | json}}
+{{form.get('bid').errors | json}}
+
+
+ <div class="invalid-feedback">
+
+ngx-bootstrap alert
+
+

@@ -1,0 +1,7 @@
+:host {
+  margin-left: 16px;
+}
+
+.active {
+  font-weight: bold;
+}

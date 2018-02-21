@@ -1,0 +1,51 @@
+<div class="loader" [ngStyle]={'width.px':loaderWith,'height.px':loaderHeight}></div>
+
+npm i --save firebase
+
+  const testPRomise = new Promise<number>((resolve, reject) => {
+      new TimerObservable(2000).subscribe(() => {
+        resolve(5);
+      });
+      //reject();
+    });
+
+    testPRomise.then(
+szam=>{
+//igaz ag
+},
+err=>{
+//hiba ag
+}
+    );
+
+
+ const eventPropertyDescriptor = Object.getOwnPropertyDescriptor(this, 'event');
+   
+ eventPropertyDescriptor.enumerable = false;
+  
+ Object.defineProperty(this, 'event',eventPropertyDescriptor);
+
+
+https://firebase.google.com/docs/web/setup
+
+https://firebase.google.com/docs/database/web/read-and-write
+
+
+return this.getOne(id).first();
+
+share();
+
+LifecycleHook
+
+doCheck mindig lesz de ha uaz az adat akkor doChange nem lesz
+
+doChange majdnem u az mind az onInit
+
+ngAfterViewInit() { html betöltõdött renderelés elindult
+ngAfterViewChecked
+
+constructor->onChanges->onInit->doCheck-aftercontentInit-afterContentChecked-afterViewInit-AfterViewChecked
+
+afterContent komponensek elkészülése/feldolgozása component directivak
+
+View a saját
