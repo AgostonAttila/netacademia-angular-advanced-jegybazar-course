@@ -1,0 +1,4 @@
+npm uninstall --save ngrx-bootstrap
+npm install --save ngrx-bootstrap
+
+ng g m ... --routing=true
